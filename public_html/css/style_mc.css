@@ -1,0 +1,99 @@
+html {
+    height: 0%;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+}
+body {
+    text-align: center;
+    display: block;
+    margin: 0;
+    height: 100%;
+}
+#container {
+    position: relative;
+    left: 50%;
+    margin: 0 0 0 -400px;
+    max-width: 800px;
+    padding-bottom: 120px;
+}
+/*header*/
+.headerLink {
+  position: relative;
+  width: 50%;
+  left: 35%;
+  padding: 20.5px 0 15px 0;
+  color: white;
+}
+.header {
+  height: 60px;
+  background-color: darkgray;
+  overflow: hidden;
+}
+a {
+  color: white;
+  font-size: 100%;
+  font-family: Roboto;
+}
+.nofilter {
+  width: 100%;
+  right: 0;
+  background-color: whitesmoke;
+  transition: 300ms;
+}
+img {
+  width: 100%;
+  right: 0;
+  background-color: whitesmoke;
+  transition: 300ms;
+}
+/*content*/
+.title {
+  margin: 2% 0 1% 0;
+  width: 100%;
+  transition: 0.75s;
+}
+img:not(.nofilter) {
+  width: 100%;
+  right: 0;
+  -webkit-filter: brightness(100%);
+  transition: 300ms;
+}
+img:hover:not(.nofilter) {
+  -webkit-filter: brightness(80%);
+}
+.overflow {
+  width: 100%;
+  overflow: hidden;
+}
+/*footer*/
+footer {
+  position: relative;
+  height: 100px;
+  background-color: gainsboro;
+  
+}
+.VSC{
+  position: relative;
+  left: 50%;  
+}
+p.VSClink {
+  font-family: Roboto;
+  color: darkgray;
+  padding-top: 40px;
+}
+a.VSClink {
+  color: dimgray;
+}
+.bar {
+  width: 1.5px;
+  height: 80px;
+  background-color: darkgray;
+  position: relative;
+  top: 10px;
+  left: 50%;
+  margin-left: 0.5px;
+}
+.BTT {
+  position: relative;
+  left: 20%;
+}

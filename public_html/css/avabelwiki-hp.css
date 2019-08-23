@@ -1,0 +1,54 @@
+body{
+    height: 100vh;
+}
+.title-img{
+    height: 70% ;
+    width: 90% ;
+    margin: 9% auto;
+}
+.left-div{
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-color: rgba(0,255,0,0.1);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.left-div h5:hover{
+    background-color: rgba(0,255,255,0.9);
+}
+.left-div>div{
+    position: relative;
+    left: 5%;
+}
+.menu-li{
+    position: relative;
+    left: 13%;
+}
+ul,li{
+    list-style: none;
+}
+.act-panel{
+    display: none;
+}
+
+.right-div{
+    position: relative;
+    float: right;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: auto;  
+}
+.avabelwiki-hp-title{
+    color: red;
+    font-size:60px;
+    word-break: break-all; 
+}
+.asobimo-inc{
+    position: relative;
+    bottom: 0%;
+}
